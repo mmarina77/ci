@@ -17,8 +17,6 @@ class Files_Model extends CI_Model {
 		$this->csv_class->save_file($new_filename);
 		return $data;
 	}
-
-	
 }
 
 /* End of file welcome.php */
