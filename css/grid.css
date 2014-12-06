@@ -1,0 +1,18 @@
+.dg_form table{
+    border:1px solid silver;
+}
+ 
+.dg_form th{
+    background-color:gray;
+    font-family:"Courier New", Courier, mono;
+    /*font-size:12px;*/
+}
+ 
+.dg_form td{
+    background-color:gainsboro;
+    /*font-size:12px;*/
+}
+ 
+.dg_form input[type=submit]{
+    margin-top:2px;
+}

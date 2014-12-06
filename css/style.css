@@ -1,0 +1,162 @@
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+body {
+	background-color: #fff;
+	margin: 0px;
+	font: 13px/20px normal Arial, Helvetica, sans-serif;
+	color: #4F5155;
+}
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+label {
+	display: block;
+}
+
+.error {
+	color:#393939;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#newsletter_form {
+	background-color: #e3e3e3;
+	width:20%;
+	margin: 5em auto 0;
+	padding: 32px;
+	border: 1px solid #d5d5d5;
+}
+
+#newsletter_form form input[type=text]{
+	width:100%;
+}
+
+h2 {
+	margin-top: -54px;
+	color:#aa2828;
+	font-family:arial;
+}
+
+form input[type=submit]:hover{
+	/*background-color: #aa2828;
+	border: 1px solid #c62828;
+	color:#e3e3e3;*/
+	padding: .5em;
+	cursor:pointer;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+/* login */
+#login_form {
+	width:300px;
+	background: #f0f0f0;
+	border: 1px solid white;
+	margin: 50px auto 0;
+	padding: 1em;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+
+/*
+h1,h2,h3,h4,h5 {
+	margin-top:0px;
+	font-family:arial black, arial;
+	text-align:center;
+}
+*/
+input[type=text], input[type=password]{
+	display: block;
+	margin: 0 0 1em 0;
+	width:280px;
+	border: 5px;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	padding: 0.5em;
+}
+
+input[type=submit], form a{
+	border: none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration:none;
+	font-size:12px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background-color: #348075;
+	color:white;
+	box-shadow: 1 1px 0 white;
+	-moz-box-shadow: 1 1px 0 white;
+	-webkit-box-shadow: 1 1px 0 white;
+}
+
+form input[type=submit]:hover, form a:hover{
+	background-color: #287368;
+	cursor:pointer;
+}
+
+fieldset {
+	width:300px;
+	margin: auto;
+	margin-bottom:2em;
+	display: block;
+}
+
+#uploadForm {width: 380px; margin:20px auto;}
+/*
+h1 {
+	text-shadow: 0 1px 0 white;
+}
+#tutInfo {
+	background-color: #e3e3e3;
+	position: absolute;
+	border-top: 1px solid white;
+	bottom: 0;
+	width: 100%;
+	padding: .7em .7em .7em .2em;
+}
+*/
+/* login end */
+
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+#body{
+	margin: 0 15px 0 15px;
+}
+p.footer{
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+#container{
+	margin: 5px;
+	border: 1px solid #D0D0D0;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+}
+
+
+
