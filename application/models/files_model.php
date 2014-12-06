@@ -6,7 +6,6 @@ class Files_Model extends CI_Model {
 		parent::__construct();
 	}
 
-	
 	public function open_file($filename, $new_filename) {
 	
 	        $this->load->library('csv_class');
