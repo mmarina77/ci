@@ -69,39 +69,6 @@ class User extends CI_Controller {
 		}
 
 	}
-/*	
-	public function add_user()
-	{
-		$data["fname"] = 'Poghos';
-		$data["lname"] = 'Poghosyan';
-		$data["uname"] = 'poghos';
-		$data["email"] = 'ppp@ppp.com';
-		$data["password"] = md5('123');
-		$data["bday"] = '2004-07-29';
-		$this->load->model('user_model');
-		$this->user_model->add_user($data);
-		
-	}
-
-	public function edit_user()
-	{
-		$data["fname"] = 'Poghos';
-		$data["lname"] = 'Poghosyan';
-		$data["email"] = 'ppp@ppp.com';
-		$data["password"] = md5('123');
-		$data["bday"] = '2004-07-29';
-		
-		$this->load->model('user_model');
-		$this->user_model->edit_user('3', $data);
-		
-	}
-	public function user_by_id($id) {
-		//$data["id"] = $id;
-		$this->load->model('user_model');
-		$data['users'] = $this->user_model->user_by_id($id);
-		$this->load->view('user_view', $data);
-	}
-*/
 }
 
 /* End of file welcome.php */
