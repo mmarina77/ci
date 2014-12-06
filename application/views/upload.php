@@ -9,6 +9,3 @@
     </form>
 	<div id="uploadMessage" class="text-error"></div>
 	</section>
-	
-    <!-- h2>Files</h2>
-    <div id="files"></div -->
